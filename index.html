@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#100b25">
+  <meta name="description" content="The portfolio of an aspiring software developer and creative problem solver.">
+  <title>Your Name — Developer in the making</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="loader" aria-hidden="true"><span class="loader-mark">YN<span>.</span></span><span class="loader-line"></span></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Your Name, home">yn<span>.</span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav">
+      <span></span><span></span>
+    </button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a>
+      <a href="#journey">Journey</a><a class="nav-contact" href="#contact">Let's talk <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home" aria-labelledby="hero-title">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-orb orb-one" aria-hidden="true"></div>
+      <div class="hero-orb orb-two" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow hero-eyebrow"><span class="status-dot"></span> OPEN TO WHAT'S NEXT</p>
+        <h1 id="hero-title">Hi, I'm<br><span class="hero-name">Your Name<span class="name-period">.</span></span></h1>
+        <p class="hero-intro">Aspiring Software Developer <span>|</span> CSE Student <span>|</span> Creative Problem Solver.</p>
+        <p class="hero-description">I turn curious questions into thoughtful little things for the web. Currently learning, building, and figuring out what's possible.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
+          <a class="button button-outline" href="#contact">Contact me <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-note"><span class="note-rule"></span><span>Currently exploring <strong class="rotating-word">the web</strong></span></div>
+      </div>
+      <div class="hero-visual" aria-label="Illustrated profile placeholder">
+        <div class="visual-caption caption-top">A WORK IN PROGRESS<br>AND PROUD OF IT</div>
+        <div class="portrait-frame">
+          <div class="portrait-sun"></div><div class="portrait-spark spark-a">✳</div><div class="portrait-spark spark-b">✳</div>
+          <img src="assets/images/profile-placeholder.svg" alt="Abstract illustrated avatar placeholder. Replace with your own portrait.">
+          <span class="portrait-label">MADE OF<br>CURIOSITY</span>
+        </div>
+        <div class="visual-caption caption-bottom"><span>FIG. 01</span><span>THE HUMAN BEHIND THE CODE</span></div>
+        <div class="floating-sticker">HELLO<br>WORLD!</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-line"></span><span>SCROLL TO EXPLORE</span></a>
+      <span class="hero-index">01 — 06</span>
+    </section>
+
+    <section class="about section" id="about" aria-labelledby="about-title">
+      <div class="section-shell about-shell">
+        <div class="section-kicker reveal"><span>02 / A LITTLE ABOUT ME</span><span class="kicker-line"></span></div>
+        <div class="about-heading reveal">
+          <p class="eyebrow">NOT JUST A KEYBOARD PERSON</p>
+          <h2 id="about-title">Curiosity is<br>my <span class="serif-word">starting point.</span></h2>
+        </div>
+        <div class="about-copy reveal">
+          <p class="about-lead">I'm a first-year Computer Science Engineering student with a beginner's mind and a maker's itch.</p>
+          <p>Right now, I'm learning the fundamentals—how the web works, how programs think, and how small details can make digital experiences feel human. This is a space to document that journey, not pretend I've already finished it.</p>
+          <a class="text-link" href="#contact">Have a good question? <span>Let's talk ↗</span></a>
+        </div>
+        <div class="about-stamp" aria-label="Learning by making"><span>LEARNING</span><b>✳</b><span>BY MAKING</span></div>
+        <div class="timeline reveal">
+          <div class="timeline-item"><span class="timeline-year">NOW</span><span class="timeline-dot"></span><div><h3>Computer Science Engineering</h3><p>[Add your college] · First year</p></div><span class="timeline-status">IN PROGRESS</span></div>
+          <div class="timeline-item"><span class="timeline-year">NEXT</span><span class="timeline-dot"></span><div><h3>Build the fundamentals</h3><p>Practice, small projects, and a lot of questions.</p></div><span class="timeline-status">THE PLAN</span></div>
+          <div class="timeline-item"><span class="timeline-year">ALWAYS</span><span class="timeline-dot"></span><div><h3>Stay curious</h3><p>Explore ideas where technology meets creativity.</p></div><span class="timeline-status">ONGOING</span></div>
+        </div>
+        <div class="about-bottom reveal"><span>LEARNING OUT LOUD</span><span>THERE'S MORE TO COME <b>↓</b></span></div>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects" aria-labelledby="projects-title">
+      <div class="section-shell projects-shell">
+        <div class="section-kicker reveal"><span>03 / SELECTED EXPERIMENTS</span><span class="kicker-line"></span><span class="kicker-side">A PLAYGROUND, NOT A FINISHED CATALOGUE</span></div>
+        <div class="projects-heading reveal">
+          <div><p class="eyebrow">MADE WHILE FIGURING IT OUT</p><h2 id="projects-title">Ideas into<br><span class="outline-word">interfaces.</span></h2></div>
+          <p>Every project starts with a small “what if?”<br>Here are a few spaces ready for the real thing.</p>
+        </div>
+        <div class="project-filters reveal" role="group" aria-label="Filter project placeholders">
+          <button class="filter-chip is-active" data-filter="all" aria-pressed="true">Everything <span>03</span></button>
+          <button class="filter-chip" data-filter="web" aria-pressed="false">Web <span>01</span></button>
+          <button class="filter-chip" data-filter="code" aria-pressed="false">Code <span>01</span></button>
+          <button class="filter-chip" data-filter="ideas" aria-pressed="false">Ideas <span>01</span></button>
+        </div>
+        <!-- Replace these clearly marked placeholders with real projects and verified links. -->
+        <div class="project-list">
+          <article class="project-item project-featured reveal" data-category="web">
+            <div class="project-art art-dashboard" aria-hidden="true"><div class="art-window"><div class="window-dots"><i></i><i></i><i></i></div><div class="dashboard-title"></div><div class="dashboard-chart"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div><div class="dashboard-bars"><i></i><i></i><i></i></div></div><span class="art-index">CONCEPT 001</span></div>
+            <div class="project-info"><span class="project-type">01 / WEB DEVELOPMENT · PLACEHOLDER</span><h3>Your next<br>web project<span>.</span></h3><p>Replace this space with a real site you designed or built, what problem it solves, and what you learned along the way.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><span class="project-link project-placeholder">ADD YOUR LIVE / GITHUB LINK <span>↗</span></span></div>
+          </article>
+          <article class="project-item project-secondary reveal" data-category="code">
+            <div class="project-art art-code" aria-hidden="true"><div class="code-orbit orbit-a"></div><div class="code-orbit orbit-b"></div><span class="code-glyph">&lt;/&gt;</span><span class="art-index">CONCEPT 002</span></div>
+            <div class="project-info"><span class="project-type">02 / PROGRAMMING · PLACEHOLDER</span><h3>A little<br>logic lab<span>.</span></h3><p>A small program, a useful tool, or a challenge that taught you something. Tell its story here.</p><div class="project-tags"><span>ADD LANGUAGE</span><span>ADD TOOLS</span></div><span class="project-link project-placeholder">ADD YOUR REPOSITORY LINK <span>↗</span></span></div>
+          </article>
+          <article class="project-item project-tertiary reveal" data-category="ideas">
+            <div class="project-art art-idea" aria-hidden="true"><div class="idea-sun"></div><div class="idea-curve"></div><span class="idea-word">WHAT<br>IF?</span><span class="art-index">CONCEPT 003</span></div>
+            <div class="project-info"><span class="project-type">03 / INNOVATION · PLACEHOLDER</span><h3>One curious<br>experiment<span>.</span></h3><p>Document a workshop build, hackathon idea, or prototype—only once you've actually made it.</p><div class="project-tags"><span>YOUR ROLE</span><span>YOUR STACK</span></div><span class="project-link project-placeholder">ADD A REAL PROJECT LINK <span>↗</span></span></div>
+          </article>
+        </div>
+        <div class="projects-footer reveal"><span>NO MADE-UP CASE STUDIES. JUST ROOM TO GROW.</span><span>03 / 06</span></div>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills" aria-labelledby="skills-title">
+      <div class="skills-mesh" aria-hidden="true"></div>
+      <div class="section-shell skills-shell">
+        <div class="section-kicker reveal"><span>04 / THINGS I'M LEARNING</span><span class="kicker-line"></span><span class="kicker-side">CURIOSITY OVER SCOREKEEPING</span></div>
+        <div class="skills-heading reveal"><p class="eyebrow">TOOLS IN THE TOOLBOX</p><h2 id="skills-title">Early days.<br><span class="skills-accent">Big energy.</span></h2><p>No arbitrary percentages—just an honest snapshot of what I'm exploring and practicing.</p></div>
+        <div class="skill-groups">
+          <div class="skill-group reveal"><span class="skill-number">01</span><h3>Writing code</h3><p class="skill-note">Foundations in progress</p><div class="skill-list"><span class="skill-pill"><b>01</b> HTML <i>learning</i></span><span class="skill-pill"><b>02</b> CSS <i>learning</i></span><span class="skill-pill"><b>03</b> JavaScript <i>exploring</i></span><span class="skill-pill"><b>04</b> C <i>learning</i></span><span class="skill-pill"><b>05</b> Python <i>exploring</i></span></div></div>
+          <div class="skill-group reveal"><span class="skill-number">02</span><h3>Making things</h3><p class="skill-note">Add tools as you use them</p><div class="skill-list"><span class="skill-pill"><b>01</b> Git & GitHub <i>learning</i></span><span class="skill-pill"><b>02</b> VS Code <i>daily tool</i></span><span class="skill-pill skill-add">+ ADD A TOOL YOU USE</span></div></div>
+          <div class="skill-group skill-group-soft reveal"><span class="skill-number">03</span><h3>How I work</h3><p class="skill-note">The human side of building</p><div class="soft-skills"><span>Curiosity <b>↗</b></span><span>Clear communication <b>↗</b></span><span>Problem solving <b>↗</b></span><span>Learning in public <b>↗</b></span></div></div>
+        </div>
+        <div class="skills-footer reveal"><span>THE BEST SKILL IS THE ONE YOU'RE PRACTICING.</span><span>04 / 06</span></div>
+      </div>
+    </section>
+
+    <section class="journey section" id="journey" aria-labelledby="journey-title">
+      <div class="section-shell journey-shell">
+        <div class="section-kicker reveal"><span>05 / THE JOURNEY SO FAR</span><span class="kicker-line"></span><span class="kicker-side">SMALL STEPS COUNT</span></div>
+        <div class="journey-heading reveal"><p class="eyebrow">MILESTONES, NOT MEDALS</p><h2 id="journey-title">A story still<br><span>being written.</span></h2><p>Share the real moments that brought you here. No certificates or accolades? That's okay—this page can grow with you.</p></div>
+        <div class="journey-track">
+          <div class="journey-entry reveal"><div class="journey-date"><span>01</span><small>YOUR YEAR</small></div><div class="journey-marker"></div><div class="journey-detail"><span class="journey-label">ACADEMIC MILESTONE · ADD DETAILS</span><h3>Started the CSE journey</h3><p>[Add your college, year, and a detail that made this beginning yours.]</p><span class="journey-proof">✳ ADD A VERIFIED LINK OR IMAGE</span></div><div class="journey-aside">A NEW<br>CHAPTER <b>↗</b></div></div>
+          <div class="journey-entry reveal"><div class="journey-date"><span>02</span><small>YOUR YEAR</small></div><div class="journey-marker"></div><div class="journey-detail"><span class="journey-label">COURSE / WORKSHOP · ADD DETAILS</span><h3>First concept that clicked</h3><p>[Add a real course, workshop, or learning milestone—and what you took from it.]</p><span class="journey-proof">✳ LINK A CERTIFICATE IF YOU HAVE ONE</span></div><div class="journey-aside">LEARNED<br>BY DOING <b>↗</b></div></div>
+          <div class="journey-entry reveal"><div class="journey-date"><span>03</span><small>UP NEXT</small></div><div class="journey-marker"></div><div class="journey-detail"><span class="journey-label">WHAT'S NEXT · YOUR CALL</span><h3>More making, less waiting</h3><p>Build small things, learn from the wobbly bits, and keep showing up.</p><span class="journey-proof">✳ THIS PART IS HAPPENING NOW</span></div><div class="journey-aside">TO BE<br>CONTINUED <b>→</b></div></div>
+        </div>
+        <div class="journey-footer reveal"><span>NO CLAIMS WITHOUT THE STORY BEHIND THEM.</span><span>05 / 06</span></div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact" aria-labelledby="contact-title">
+      <div class="contact-decoration contact-deco-a" aria-hidden="true"></div><div class="contact-decoration contact-deco-b" aria-hidden="true"></div>
+      <div class="section-shell contact-shell">
+        <div class="section-kicker reveal"><span>06 / YOUR TURN</span><span class="kicker-line"></span><span class="kicker-side">GOOD THINGS START WITH A HELLO</span></div>
+        <div class="contact-layout">
+          <div class="contact-copy reveal"><p class="eyebrow">GOT A PROJECT, IDEA, OR JUST A QUESTION?</p><h2 id="contact-title">Let's make<br>something <span>matter.</span></h2><p class="contact-lead">I'm at the beginning of this adventure. If you're building, learning, or looking for a curious teammate, I'd love to hear from you.</p>
+            <a class="contact-email" href="mailto:your.email@example.com">your.email@example.com <span>↗</span></a>
+            <div class="social-links" aria-label="Social profile placeholders"><span class="social-placeholder">LINKEDIN <i>ADD YOUR URL</i></span><span class="social-placeholder">GITHUB <i>ADD YOUR URL</i></span><span class="social-placeholder">OTHER <i>ADD YOUR URL</i></span></div>
+            <p class="contact-placeholder-note">Replace the sample email and add your social profile links before publishing.</p>
+          </div>
+          <form class="contact-form reveal" id="contact-form" novalidate>
+            <p class="form-kicker">SEND A LITTLE NOTE <span>✳</span></p>
+            <label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" placeholder="How should I call you?" required minlength="2">
+            <label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+            <label for="subject">Subject</label><input id="subject" name="subject" type="text" placeholder="What's on your mind?" required minlength="3">
+            <label for="message">Your message</label><textarea id="message" name="message" rows="3" placeholder="A few words to get us started..." required minlength="10"></textarea>
+            <p class="form-note">This opens your email app to send—no message is stored here.</p>
+            <button class="button button-submit" type="submit">Let's send it <span>↗</span></button>
+            <p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+        <footer class="site-footer"><a class="footer-brand" href="#home">yn<span>.</span></a><span>MADE WITH CURIOSITY & A LOT OF TABS OPEN.</span><a href="#home" class="footer-top">BACK TO TOP ↑</a><span class="footer-copy">© <span id="current-year"></span> YOUR NAME · A WORK IN PROGRESS</span></footer>
+      </div>
+    </section>
+  </main>
+  <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+</body>
+</html>
